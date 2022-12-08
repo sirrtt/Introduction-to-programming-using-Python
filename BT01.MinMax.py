@@ -1,0 +1,7 @@
+num1, num2 = list(map(int,input().split()))
+#num1 = int(input())
+#num2 = int(input())
+max = int(((num1+num2)+abs(num1-num2))/2)
+min = int(((num1+num2)-abs(num1-num2))/2)
+print('max = '+str(max))
+print('min = '+str(min))
